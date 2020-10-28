@@ -35,20 +35,20 @@ function makeSound(key) {
       snare.play();
       break;
     case "d":
-      var tome1 = new Audio("sounds/meepo.mp3");
-      tome1.play();
+      var audio = new Audio("sounds/meepo.mp3");
+      audio.play();
       break;
     case "j":
-      var tome2 = new Audio("sounds/slark.mp3");
-      tome2.play();
+      var audio = new Audio("sounds/slark.mp3");
+      audio.play();
       break;
     case "k":
-      var tome3 = new Audio("sounds/Techies.mp3");
-      tome3.play();
+      var audio = new Audio("sounds/Techies.mp3");
+      audio.play();
       break;
     case "l":
-      var tome4 = new Audio("sounds/sniper.mp3");
-      tome4.play();
+      var audio = new Audio("sounds/sniper.mp3");
+      audio.play();
       break;
     default:
       console.log;
