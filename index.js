@@ -23,7 +23,7 @@ for (var i = 0; i <= document.querySelectorAll(".drum").length; i++) {
 function makeSound(key) {
   switch (key) {
     case "w":
-      var crash = new Audio("sounds/riki.mp3");
+      var crash = new Audio("sounds/Rikii.mp3");
       crash.play();
       break;
     case "a":
